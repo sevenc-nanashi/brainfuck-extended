@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "brainfuck-extended"
-  s.version = "0.0.2"
+  s.version = "1.0.0"
   s.summary = "An extended BrainFuck."
   s.description = <<-EOF
   An extended BrainFuck.
@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   EOF
   s.authors = ["sevenc-nanashi"]
   s.email = "sevenc-nanashi@sevenbot.jp"
-  s.files = ["main.rb"]
+  s.files = Dir["main.rb", "bin/*"]
   s.homepage =
     "https://github.com/sevenc-nanashi/brainfuck-extended"
   s.license = "MIT"
