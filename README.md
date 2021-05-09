@@ -4,8 +4,18 @@ An extended BrainFuck.
 
 
 ## Installation
-    gem install brainfuck-extended
-
+Type this to gemfile:
+```rb
+gem "brainfuck-extended"
+```
+And execute with
+```
+bundle exec brainfuck-extended
+```
+or
+```
+bundle exec bfe
+```
 ## Usage
 
 Basic BrainFuck syntax and...
