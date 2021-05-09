@@ -1,6 +1,5 @@
 require "io/console"
 require 'io/console/size'
-require 'timeout'
 require "colorize"
 require "tty-cursor"
 require 'optparse'
