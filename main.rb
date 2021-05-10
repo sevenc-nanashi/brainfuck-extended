@@ -132,7 +132,7 @@ until index >= script.length
       $stdout.print field[cursor_y][cursor_x].chr
     end
   when ","
-    field[cursor_y][cursor_x] = $stdin.getch
+    field[cursor_y][cursor_x] = $stdin.getch.ord
   when "["
     if field[cursor_y][cursor_x] != 0
       brackets << index
