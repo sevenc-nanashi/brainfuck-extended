@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    brainfuck-extended (1.0.0)
+    brainfuck-extended (1.0.1)
       colorize
       tty-cursor
 
